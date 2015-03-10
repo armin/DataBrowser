@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Move challenge</string>
+	<key>Sections</key>
+	<array>
+		<integer>2</integer>
+	</array>
+	<key>Children</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Challenge with friend</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Sections</key>
+					<array>
+						<integer>6</integer>
+					</array>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Tom</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Bob</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Jake</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Karl</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Simon</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>John</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Friend</string>
+					<key>cellStyle</key>
+					<string>UITableViewCellStyleValue1</string>
+					<key>Value</key>
+					<string></string>
+					<key>SelectChild</key>
+					<true/>
+					<key>SelectedChildIndex</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Challenge</string>
+					<key>cellStyle</key>
+					<string>UITableViewCellStyleValue1</string>
+					<key>Value</key>
+					<string>Running</string>
+					<key>SelectChild</key>
+					<true/>
+					<key>SelectedChildIndex</key>
+					<integer>0</integer>
+					<key>Sections</key>
+					<array>
+						<string>4</string>
+					</array>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Running 100 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Cycling 500 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Swimming 50 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Walking 1000 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Add a photo</string>
+					<key>DetailsViewControllerName</key>
+					<string>ChallengePhotoUploadViewController</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Ends at</string>
+					<key>cellStyle</key>
+					<string>UITableViewCellStyleValue1</string>
+					<key>Value</key>
+					<string>When</string>
+					<key>text</key>
+					<string>DatePicker goes here</string>
+					<key>DetailsViewControllerName</key>
+					<string>DatePicker</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Cause</string>
+					<key>Label</key>
+					<string>Next Step</string>
+					<key>textAlingment</key>
+					<string>UITextAlignmentCenter</string>
+					<key>Button</key>
+					<true/>
+					<key>Sections</key>
+					<array>
+						<string>1</string>
+						<string>1</string>
+						<string>1</string>
+					</array>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Cause</string>
+							<key>cellStyle</key>
+							<string>UITableViewCellStyleValue1</string>
+							<key>Value</key>
+							<string>Select a cause</string>
+							<key>SelectChild</key>
+							<true/>
+							<key>SelectedChildIndex</key>
+							<integer>0</integer>
+							<key>Sections</key>
+							<array>
+								<string>4</string>
+							</array>
+							<key>Children</key>
+							<array>
+								<dict>
+									<key>Title</key>
+									<string>Change the face of men&apos;s health</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Help prostate cancer research</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Support depression victims</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Just keeping fit</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Amount ($)</string>
+							<key>cellStyle</key>
+							<string>UITableViewCellStyleValue1</string>
+							<key>Value</key>
+							<string>0.0</string>
+							<key>DetailsViewControllerName</key>
+							<string>NumberInputScene</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Review</string>
+							<key>Label</key>
+							<string>Next Step</string>
+							<key>textAlingment</key>
+							<string>UITextAlignmentCenter</string>
+							<key>Button</key>
+							<true/>
+							<key>DetailsViewControllerName</key>
+							<string>ReviewChallengeViewController</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Sections</key>
+			<array>
+				<integer>4</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Go solo</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Challenge</string>
+					<key>cellStyle</key>
+					<string>UITableViewCellStyleValue1</string>
+					<key>Value</key>
+					<string>Running</string>
+					<key>SelectChild</key>
+					<true/>
+					<key>SelectedChildIndex</key>
+					<integer>0</integer>
+					<key>Sections</key>
+					<array>
+						<string>4</string>
+					</array>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Running 100 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Cycling 500 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Swimming 50 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Walking 1000 km</string>
+							<key>accesoryType</key>
+							<string>UITableViewCellAccessoryCheckmark</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Add a photo</string>
+					<key>DetailsViewControllerName</key>
+					<string>ChallengePhotoUploadViewController</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Ends at</string>
+					<key>cellStyle</key>
+					<string>UITableViewCellStyleValue1</string>
+					<key>Value</key>
+					<string>When</string>
+					<key>text</key>
+					<string>DatePicker goes here</string>
+					<key>DetailsViewControllerName</key>
+					<string>DatePicker</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Cause</string>
+					<key>Label</key>
+					<string>Next Step</string>
+					<key>textAlingment</key>
+					<string>UITextAlignmentCenter</string>
+					<key>Button</key>
+					<true/>
+					<key>Sections</key>
+					<array>
+						<string>1</string>
+						<string>1</string>
+						<string>1</string>
+					</array>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Cause</string>
+							<key>cellStyle</key>
+							<string>UITableViewCellStyleValue1</string>
+							<key>Value</key>
+							<string>Select a cause</string>
+							<key>SelectChild</key>
+							<true/>
+							<key>SelectedChildIndex</key>
+							<integer>0</integer>
+							<key>Sections</key>
+							<array>
+								<string>4</string>
+							</array>
+							<key>Children</key>
+							<array>
+								<dict>
+									<key>Title</key>
+									<string>Change the face of men&apos;s health</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Help prostate cancer research</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Support depression victims</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+								<dict>
+									<key>Title</key>
+									<string>Just keeping fit</string>
+									<key>accesoryType</key>
+									<string>UITableViewCellAccessoryCheckmark</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Amount ($)</string>
+							<key>cellStyle</key>
+							<string>UITableViewCellStyleValue1</string>
+							<key>Value</key>
+							<string>0.0</string>
+							<key>DetailsViewControllerName</key>
+							<string>NumberInputScene</string>
+						</dict>
+						<dict>
+							<key>Title</key>
+							<string>Review</string>
+							<key>Label</key>
+							<string>Next Step</string>
+							<key>textAlingment</key>
+							<string>UITextAlignmentCenter</string>
+							<key>Button</key>
+							<true/>
+							<key>DetailsViewControllerName</key>
+							<string>ReviewChallengeViewController</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Sections</key>
+			<array>
+				<integer>3</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

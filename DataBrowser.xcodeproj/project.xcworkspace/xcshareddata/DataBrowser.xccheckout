@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9EB16B3F-1B9A-4F4C-B936-B0498281FB37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DataBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F0B26CBB94ECE908BD5DD1C0A22AE0E5587D5E9</key>
+		<string>https://github.com/armin/DataBrowser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DataBrowser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F0B26CBB94ECE908BD5DD1C0A22AE0E5587D5E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/armin/DataBrowser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F0B26CBB94ECE908BD5DD1C0A22AE0E5587D5E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F0B26CBB94ECE908BD5DD1C0A22AE0E5587D5E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DataBrowser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
